@@ -42,6 +42,12 @@ NestJs 공부용 토이 프로젝트. 소켓 프로그래밍을 이용한 익명
 
 - Added Modules
 
+  - **template engine**: `yarn add hbs`
+  - **nest-js/config**: `yarn add @nestjs/config`
+  - **[_mongoose_](https://mongoosejs.com/docs/index.html)**: `yarn add @nestjs/mongoose mongoose`
+  - **[_web scoket_](https://docs.nestjs.com/websockets/gateways#installation)**: `yarn add @nestjs/websockets @nestjs/platform-socket.io`
+  - **validation**: `yarn add class-validator class-transformer`
+
 - .env
 
   ```text
@@ -90,3 +96,8 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
+
+## Ref
+
+- [_SSR_](https://docs.nestjs.com/techniques/mvc)
+- [_Gateway for socket_](https://docs.nestjs.com/websockets/gateways)
